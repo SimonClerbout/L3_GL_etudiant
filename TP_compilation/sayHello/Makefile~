@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-W -Wall -ansi -pedantic -std=c++11 
+CFLAGS=-W -Wall -ansi -pedantic -std=c++11 -O0 
 LDFLAGS=
 EXEC=sayHello.out
 
@@ -12,7 +12,7 @@ module1.o: module1.cpp
 	$(CC) -o module1.o -c module1.cpp $(CFLAGS)
 
 sayHello.o: sayHello.cpp
-        $(CC) -o sayHello.o -c sayHello.cpp $(CFLAGS)
+	$(CC) -o sayHello.o -c sayHello.cpp $(CFLAGS)
 
 
 clean:

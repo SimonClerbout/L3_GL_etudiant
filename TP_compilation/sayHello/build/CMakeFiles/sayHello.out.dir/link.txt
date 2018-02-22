@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -g    CMakeFiles/sayHello.out.dir/module1.cpp.o CMakeFiles/sayHello.out.dir/sayHello.cpp.o  -o sayHello.out -rdynamic 
