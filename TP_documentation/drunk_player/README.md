@@ -24,6 +24,6 @@ Drunk_player utilise la bibliothèque de traitement d'image OpenCV et est compos
 ## Utilisation
 	./drunk_player_gui.out ../data/
 	
-	![] ./drunk_player
+	![](./drunk_player_gui.png)
 	
 
