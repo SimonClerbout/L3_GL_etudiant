@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/fibo/src/print_fibo.cpp
+Fibo.hpp
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+iostream
+-
+cassert
+-
+

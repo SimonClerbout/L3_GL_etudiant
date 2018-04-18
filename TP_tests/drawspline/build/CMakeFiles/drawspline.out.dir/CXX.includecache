@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/Spline.cpp
+Spline.hpp
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/Spline.hpp
+cassert
+-
+cmath
+-
+string
+-
+
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/Spline.hpp
+Vec2.hpp
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/Vec2.hpp
+vector
+-
+
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/Vec2.cpp
+Vec2.hpp
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/Vec2.hpp
+
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/Vec2.hpp
+
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/drawspline.cpp
+Spline.hpp
+/etudiants/sclerbou/Documents/GL/L3_GL_etudiant/TP_tests/drawspline/src/Spline.hpp
+iostream
+-
+

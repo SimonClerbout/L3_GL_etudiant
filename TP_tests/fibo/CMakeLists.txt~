@@ -1,0 +1,10 @@
+cmake_minimum_required( VERSION 2.6 )
+project( fibo )
+set( CMAKE_CXX_FLAGS "-std=c++14 -Wall -Wextra -DNDEBUG" )
+pkg_check_modules( PKG REQUIRED cpputest )
+
+add_executable( print_fibo.out 
+    src/Fibo.cpp
+    src/print_fibo.cpp
+    src/fibo_test.cpp )
+

@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -10,7 +11,7 @@ int main(int argc, char ** argv) {
         exit(-1);
     }
 
-    int * V = nullptr;
+    //int * V = nullptr;
     try {
         cout << "Open file\n";
         ifstream file(argv[1]);
@@ -21,7 +22,7 @@ int main(int argc, char ** argv) {
         file >> N;
 
         cout << "Allocate V\n";
-        V = new int [N];
+        std::vector<int> V(N);
 
         cout << "Read V\n";
         for (unsigned i=0; i<N; i++)
@@ -35,7 +36,7 @@ int main(int argc, char ** argv) {
     } 
     catch (exception & e) {
         cout << "caught exception: " << e.what() << endl;
-        if (V) delete [] V;
+        //if (V) delete [] V;
         exit(-1);
     }
 
